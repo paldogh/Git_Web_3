@@ -1,0 +1,15 @@
+/*aplica a todo el doc*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+}

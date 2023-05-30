@@ -1,0 +1,39 @@
+/*el elemento no ocupará ningún espacio*/
+#menu-bar{
+    display: none; 
+}
+/*estilos a la etiqueta header label*/
+header label{
+ float:right; /*flota a la derecha*/
+ font-size: 150%; /*tamaño de letra*/
+ margin: 6px; /*margen*/
+ cursor: pointer;    /*indica un enlace*/
+}
+/*estilos al menu*/
+.menu{
+position: absolute;/*establece que el elemento s
+                    se coloca en relación al
+                     elemento más cercano */
+width:100%;/*ancho del 100%*/
+height: 100vh; /*alto del 100% = 100vh*/
+background-color: rgba(51, 51,51,.9);
+top: 50px; /*habrá un border del 
+             margen superior de 50px*/
+left: 0;  /*habrá un border del 
+           margen izquierdo de 0px*/
+transition: all .5s;/*tiempo de transición */
+transform: translateX(-100%);/*transición
+                             de iz a der*/
+
+}
+
+.menu a {
+  display: block;
+  color: rgb(239, 244, 249);  
+height: 50px;
+text-decoration: none;
+padding: 15px;
+border-bottom: 1px solid rgb(255, 255 , 255);
+}
+
+/*falta código*/
