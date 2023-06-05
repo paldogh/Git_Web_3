@@ -1,64 +1,36 @@
+/*colocar la imagen 50px del menu*/
 #banner{
-margin-top: 50px;
-position: relative;
+    margin-top: 50px;
+    position: relative;
 }
-#banner img{
-width: 100%;
-height: 100%;
+/*ajustamos el ancho y el alto al tamaño 
+            de la pantalla*/
+#banner img {
+    width: 100%;
+    height: 100%;
 }
+/*posicionamos el texto sobre la img*/
 #banner .contenedor{
-position: absolute;
-top: 50%;
-left: 50%;
-color:#000;
-transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:  #1e1d1d;
+    transform: translateX(-50%);
 }
-
+/*tamaño de letra al título*/
 #banner h2{
-font-size: 30px;
+    font-size: 50px;
 }
-#banner a{ 
+/*estilo al botón leer más*/
+#banner a {
 display: block;
 width: 100px;
-color:#000;
+color: #000;
 text-decoration: none;
-padding: 10px;
-margin-top: 15px;
-border:3px solid #fff;
-
+padding:10px ;
+margin-top: 15px ;
+border: 3px solid #fff;
 }
-#banner a:hover{
-background-color: rgba(51,51,51,0.2);
+#banner a:hover {
+    background-color: #767474;
 }
-#bienvenidos{
-	text-align: center;
-
-}
-@media (min-width: 480px){
-	#banner h2{
-		font-size: 40px;
-	}
-	#banner a{
-		margin-top: 25px;
-	}
-	@media(min-width: 768px ){
-		#banner{
-			height: 300px;
-			overflow: hidden;
-		}
-		#banner img{
-		height: auto;
-		margin-top: -100px;
-	}
-	#banner a{
-		margin-top: 25px;
-	}
-	}
-	@media (min-width: 1024px){
-#banner img{
-	margin-top: -200px;
-}
-
-
-
-	
