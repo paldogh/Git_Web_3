@@ -36,4 +36,27 @@ padding: 15px;
 border-bottom: 1px solid rgb(255, 255 , 255);
 }
 
-/*falta código*/
+/*color del menú*/
+.menu a:hover{
+background-color: rgba(105, 105, 105,0.3);
+}
+/*programamos el clic del menú para mostrarlo*/
+#menu-bar:checked ~ .menu{   /*alt + 126*/
+  transform: translateX(0%);
+}
+
+/*diseño reponsivo para pantalla de 1024 px*/
+
+@media(min-width: 1024px){
+.menu{
+  position: static;
+  width: auto;
+  height: auto;
+  transform: translateX(0%);
+  float: right;
+  display: flex;
+}
+menu a {
+  border: none;
+}
+}
