@@ -1,0 +1,22 @@
+/*colocamos los elementosw
+ en una tabla centrada*/
+ footer .contenedor  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pie {
+    font-size: 20px;
+    text-align: center;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+ .sociales a {
+text-decoration: none;
+color: black;
+ }
