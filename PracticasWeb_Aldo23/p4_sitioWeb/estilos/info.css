@@ -1,0 +1,25 @@
+
+/*color de fondo y de letra */
+#info {
+  background-color: #000;
+  color :  #fff;
+  text-align: center;
+  padding: 20px; 
+}
+/*colocamos las imagenes
+ en una tabla centrada*/
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*aplicamos estilo circular a la img*/
+.info-mascota img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+#info h2 {
+    margin: 20px 60px 20px 20px;
+}
