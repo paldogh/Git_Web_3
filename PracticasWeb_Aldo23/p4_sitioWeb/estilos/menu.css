@@ -22,7 +22,7 @@ top: 50px; /*habrá un border del
 left: 0;  /*habrá un border del 
            margen izquierdo de 0px*/
 transition: all .5s;/*tiempo de transición */
-transform: translateX(-100%);/*transición
+transform: translateX(100%);/*transición
                              de iz a der*/
 
 }
@@ -52,7 +52,7 @@ background-color: rgba(105, 105, 105,0.3);
   position: static;
   width: auto;
   height: auto;
-  transform: translateX(0%);
+  transform: translateX(00%);
   float: right;
   display: flex;
 }
