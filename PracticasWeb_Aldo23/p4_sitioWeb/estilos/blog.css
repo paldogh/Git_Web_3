@@ -1,0 +1,24 @@
+/*colocamos las imagenes
+ en una tabla centrada*/
+#blog .contenedor  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*ajustamos ancho de img*/
+#blog img {
+    width: 100%;
+    max-width: 280px;
+}
+
+/*margen al article*/
+#blog article{
+    margin: 15px;
+} 
+#blog h3, h4 {
+    text-align: center;
+}
+
+#bienvenidos {
+    text-align: center;
+  }
