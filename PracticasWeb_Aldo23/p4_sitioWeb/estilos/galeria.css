@@ -1,0 +1,99 @@
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+.contenedor-flexible{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*design responsive*/
+@media screen and (min-width:820px){
+    .column--50-25 {
+        width: 24.5%;
+    }
+}
+/*imágenes de la galería*/
+.galeria__img {
+    object-fit: cover;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+/*aumenta el tamaño de la img al posicionarse en ella*/
+.galeria__img:hover {
+   transform: scale(1.05); 
+} 
+/*alto de la img grande*/
+.galeria__img--grande{
+    height: 400px;
+} 
+
+/*alto de la img chica*/
+.galeria__img--chica{
+    height: 200px;
+} 
+/*img seleccionada --> img grande*/
+.modal{
+   width: 100%; 
+   min-height: 100vh; /*altura del dispositivo*/
+background-color: rgb(0, 0, 0);
+position: fixed;
+top: 0;
+left: 0;
+z-index: 10000;
+display: none;  /*ocultamos la caja negra que dibujamos*/
+}
+/*centramos la imagen seleccionada*/
+.modal__contenido{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; 
+}
+/*ancho de la img grande*/
+.modal_img{
+    width: 50%;
+}
+
+/*estilo del botón x*/
+.modal_boton{
+position: absolute;
+top: 15px;
+right: 10px;
+cursor: pointer;
+color: #fff;
+font-weight: bold;
+width: 50px;
+height: 50px;
+background: #de423A;
+font-size: 2.5em;  /*1em --> 12px*/
+text-align: center;
+border-radius: 50%;
+font-family: 'Courier New', Courier, monospace;
+}
+/*función para JS permite abrir la img*/
+.modal--open {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
