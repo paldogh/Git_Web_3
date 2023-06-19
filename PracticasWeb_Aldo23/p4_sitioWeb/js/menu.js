@@ -1,8 +1,4 @@
-let btnMenu= document.getElementById('btnmenu');
-let menu= document.getElementById('menu');
-
-btnMenu.addEventListener('click', function(){
-'user strict';
-menu.classList.toggle('mostrar');
-
-})
+let imagenes = document.querySelectorAll('.galeria__img');
+let modal=document.querySelectorAll('#modal'); 
+let imagen=document.querySelectorAll('#modal_img');
+let boton =document.querySelectorAll('#modal_boton');
