@@ -7,8 +7,6 @@ for (let i = 0; i < imagenes.length; i++) {
 modal.classList.toggle("modal--open");
     let src=e.target.src;
 imagen.setAttribute("src",src);
-
-
 })
 }
 boton.addEventListener('click',function() {
