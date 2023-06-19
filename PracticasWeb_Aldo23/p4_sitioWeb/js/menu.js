@@ -10,7 +10,5 @@ imagen.setAttribute("src",src);
 })
 }
 boton.addEventListener('click',function() {
-
   modal.classList.toggle("modal--open");
-
 } )
