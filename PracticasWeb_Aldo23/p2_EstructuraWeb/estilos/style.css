@@ -45,6 +45,7 @@ margin-bottom: 15px;
    width: 220;
    margin: 20px 0px 10px;
    border: 2px solid #101942;
+   box-shadow: 10px -50px 5px black;
    padding: 10px;
    background:  #cbe4ea;
 }

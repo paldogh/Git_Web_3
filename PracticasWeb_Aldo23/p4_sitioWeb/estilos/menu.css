@@ -8,6 +8,7 @@ header label{
  font-size: 150%; /*tamaño de letra*/
  margin: 6px; /*margen*/
  cursor: pointer;    /*indica un enlace*/
+
 }
 /*estilos al menu*/
 .menu{

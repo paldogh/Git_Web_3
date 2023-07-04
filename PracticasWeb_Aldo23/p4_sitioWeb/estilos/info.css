@@ -17,7 +17,7 @@
 .info-mascota img {
     width: 180px;
     height: 180px;
-    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgb(179, 156, 156);    border-radius: 50%;
     border: 7px solid #fff;
 }
 #info h2 {
